@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="M!w3J3{c5[X0l[xZZ2cZ" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="mCq%;%y2i2aKcC;wN!`q"><field name="i">IconNames.Ghost</field><next><block type="playMelody" id="Xlrun}Zw*|Q=ceuCI=[T"><value name="melody"><shadow type="melody_editor" id="H@4)gdXYH/#-:-69x=%y"><field name="melody">"C5 B G C C A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="B%U70c^R8-R3cahyV03;"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="device_clear_display" id="tw:fgKel|HJFxj[w%%y6"></block></next></block></next></block></statement></block><block type="device_button_event" id=":-J!NS9W-^nEkT#,z{9d" x="247" y="103"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="|Su-n*%h1Ks*bw5(p#MV"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="Vk~NI+saj6rRijjQH;3v"><value name="pause"><shadow type="timePicker" id="^%2G}X62DWs3fr3sjx0T"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="-)Hh{|VNw%iO:b[pV7P4"><value name="text"><shadow type="text" id=";UH5xK{1L?0D}Bun21eI"><field name="TEXT">Hej allihopa </field></shadow></value></block></next></block></next></block></statement></block></xml>
